@@ -8,6 +8,12 @@ import java.util.Random;
 
 import model.Material;
 
+/**
+ * This class is not being used
+ * @author abr_fm
+ *
+ */
+
 public class MaterialGenerator {
 
 	private List<Material> meshMaterials;

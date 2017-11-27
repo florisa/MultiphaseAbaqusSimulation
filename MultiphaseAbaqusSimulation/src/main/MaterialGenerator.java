@@ -9,6 +9,12 @@ import java.util.Random;
 import model.Element;
 import model.Material;
 
+/**
+ * This class generates randomly the new fractions for each element
+ * @author abr_fm
+ *
+ */
+
 public class MaterialGenerator {
 
 	private List<Material> meshMaterialsPercentage;
