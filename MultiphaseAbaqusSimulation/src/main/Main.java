@@ -27,8 +27,8 @@ public class Main {
 		 */
 
 		List<Material> meshMaterialsPercentage = new ArrayList<>();
-		meshMaterialsPercentage.add(new Material("ferrite-1", new BigDecimal(30)));
-		meshMaterialsPercentage.add(new Material("pearlite-1", new BigDecimal(70)));
+		meshMaterialsPercentage.add(new Material("ferrite-1", new BigDecimal(50)));
+		meshMaterialsPercentage.add(new Material("pearlite-1", new BigDecimal(50)));
 
 		new MaterialGenerator(meshMaterialsPercentage, meshElements).generate();
 
