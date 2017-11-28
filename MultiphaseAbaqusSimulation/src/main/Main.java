@@ -10,6 +10,12 @@ import utils.Chronometer;
 import reader.FileReader;
 import writer.FileWriter;
 
+/**
+ * This class sets the new percentages for each material
+ * @author abr_fm
+ *
+ */
+
 public class Main {
 
 	public static void main(String[] args) {
