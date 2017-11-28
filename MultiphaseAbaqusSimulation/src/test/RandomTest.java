@@ -2,6 +2,11 @@ package test;
 
 import java.util.Random;
 
+/**
+ * Test Class unused
+ * @author abr_fm
+ *
+ */
 public class RandomTest {
 
 	public static void main(String[] args) {
