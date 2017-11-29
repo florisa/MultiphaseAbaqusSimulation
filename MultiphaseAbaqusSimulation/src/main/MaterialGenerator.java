@@ -10,7 +10,7 @@ import model.Element;
 import model.Material;
 
 /**
- * This class generates randomly the new fractions for each element
+ * This class generates the new fractions for each element
  * @author abr_fm
  *
  */
@@ -79,6 +79,13 @@ public class MaterialGenerator {
 		return false;
 	}
 
+	/**
+	 * Gets the material percentages between higher, lower and range limits
+	 * 
+	 * @param generatedMaterials
+	 * @param higherLimit	
+	 * @return generatedValue
+	 */
 	private BigDecimal getMaterialPercentage(List<Material> generatedMaterials, BigDecimal higherLimit) {
 		BigDecimal lowerLimit = sumPercentages(generatedMaterials);
 		BigDecimal range = new BigDecimal(1.0).subtract(lowerLimit);

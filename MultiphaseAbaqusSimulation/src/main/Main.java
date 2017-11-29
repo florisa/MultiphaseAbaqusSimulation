@@ -38,6 +38,11 @@ public class Main {
 
 		new MaterialGenerator(meshMaterialsPercentage, meshElements).generate();
 
+		/*
+		 * Chronometer to count the process time
+		 * 
+		 */
+		
 		Chronometer processFileOutput = Chronometer.newInstance();
 		processFileOutput.start("Starts write file");
 		new FileWriter(meshElements, meshMaterialsPercentage).write();
